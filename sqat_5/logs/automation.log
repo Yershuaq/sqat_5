@@ -1,0 +1,32 @@
+2026-01-20 19:51:25,242 - INFO - --- СТАРТ ТЕСТА: test_admin_search_user ---
+2026-01-20 19:51:34,825 - INFO - Шаг: Поиск пользователя Admin в разделе Admin
+2026-01-20 19:51:39,702 - INFO - Анализ: Пользователь найден? True
+2026-01-20 19:51:39,788 - INFO - Скриншот сохранен: reports/screenshots\test_admin_search_user.png
+2026-01-20 19:51:39,788 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА: test_admin_search_user ---
+2026-01-20 19:51:41,981 - INFO - --- СТАРТ ТЕСТА: test_login_positive ---
+2026-01-20 19:51:42,665 - INFO - Шаг 1: Переход на страницу логина
+2026-01-20 19:51:49,024 - INFO - Шаг 2: Ввод Admin / admin123
+2026-01-20 19:51:51,999 - INFO - Анализ: Ожидаем 'Dashboard', получили 'Dashboard'
+2026-01-20 19:51:52,168 - INFO - Скриншот сохранен: reports/screenshots\test_login_positive.png
+2026-01-20 19:51:52,168 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА: test_login_positive ---
+2026-01-20 19:51:54,336 - INFO - --- СТАРТ ТЕСТА: test_pim_navigation ---
+2026-01-20 19:52:01,112 - INFO - Шаг: Клик по меню PIM
+2026-01-20 19:52:04,854 - INFO - Анализ URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+2026-01-20 19:52:04,910 - INFO - Скриншот сохранен: reports/screenshots\test_pim_navigation.png
+2026-01-20 19:52:04,910 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА: test_pim_navigation ---
+2026-01-20 20:03:55,803 - INFO - --- СТАРТ ТЕСТА: test_admin_search_user ---
+2026-01-20 20:04:02,924 - INFO - Шаг: Поиск пользователя Admin в разделе Admin
+2026-01-20 20:04:07,621 - INFO - Анализ: Пользователь найден? True
+2026-01-20 20:04:09,682 - INFO - Скриншот сохранен: reports/screenshots\test_admin_search_user.png
+2026-01-20 20:04:09,682 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА: test_admin_search_user ---
+2026-01-20 20:04:11,886 - INFO - --- СТАРТ ТЕСТА: test_login_positive ---
+2026-01-20 20:04:12,587 - INFO - Шаг 1: Переход на страницу логина
+2026-01-20 20:04:18,232 - INFO - Шаг 2: Ввод Admin / admin123
+2026-01-20 20:04:21,244 - INFO - Анализ: Ожидаем 'Dashboard', получили 'Dashboard'
+2026-01-20 20:04:23,354 - INFO - Скриншот сохранен: reports/screenshots\test_login_positive.png
+2026-01-20 20:04:23,354 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА: test_login_positive ---
+2026-01-20 20:04:25,532 - INFO - --- СТАРТ ТЕСТА: test_pim_navigation ---
+2026-01-20 20:04:31,038 - INFO - Шаг: Клик по меню PIM
+2026-01-20 20:04:35,498 - INFO - Анализ URL: https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+2026-01-20 20:04:37,574 - INFO - Скриншот сохранен: reports/screenshots\test_pim_navigation.png
+2026-01-20 20:04:37,574 - INFO - --- ЗАВЕРШЕНИЕ ТЕСТА: test_pim_navigation ---

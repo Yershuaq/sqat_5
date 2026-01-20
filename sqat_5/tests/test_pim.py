@@ -12,7 +12,6 @@ def test_pim_navigation(driver):
     logging.info("Шаг: Клик по меню PIM")
     driver.find_element(By.XPATH, "//span[text()='PIM']").click()
     
-    # Ждем, пока появится заголовок "PIM", чтобы страница отрисовалась
     WebDriverWait(driver, 10).until(
         EC.visibility_of_element_located((By.XPATH, "//h6[text()='PIM']"))
     )
@@ -20,4 +19,5 @@ def test_pim_navigation(driver):
     # Анализ
     actual_url = driver.current_url
     logging.info(f"Анализ URL: {actual_url}")
+
     assert "pim" in actual_url.lower()
